@@ -7,13 +7,14 @@ h2 {
   font-family: sans-serif;
 }
 
-nav {
-  /*flex-shrink: 0;*/
-  /*border: solid 4px rgb(126, 152, 109);*/
+/*nav {
+  flex-shrink: 0;*/
+  /*border: solid 4px rgb(126, 152, 109);
 }
+*/
 
-ul {
-  /*disp
+/*ul {
+  disp
  display: flex;
 }
 
@@ -23,7 +24,6 @@ a {
 .logo_Type {
   border: solid 4px rgb(51, 204, 212);
   /*size: 5%;*/
-}
 /*
 .offlogo {
     border: solid 4px rgb(210, 233, 235);
