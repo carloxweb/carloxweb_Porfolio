@@ -1,0 +1,50 @@
+h1, h2{
+    font-family: sans-serif;
+}
+
+nav{
+    flex-shrink: 0;
+    border: solid 4px magenta;
+}
+
+ul {
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+background-color: blueviolet;
+align-items: center;
+flex-wrap: wrap;
+align-content: center;
+
+
+}
+
+li {
+   
+    /*display:inline-flex;*/
+    background: white;
+    padding: .33%;
+    text-align: center;
+    border: solid 4px blue;
+    
+   
+    
+}
+
+a {
+ text-decoration: none;
+}
+.logo_Type {
+    border: solid 4px rgb(51, 212, 91);
+}
+
+.offlogo{
+    border: solid 4px rgb(212, 67, 51);
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 5% 10%;
+
+
+}
