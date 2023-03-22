@@ -42,7 +42,7 @@ body {
 }*/
 
 
-@media only screen and (max-width: 480px) and (min-width: 100px) {
+@media only screen and (max-width: 508px) and (min-width: 100px) {
   .logo {
     display: block;
     float: left;
@@ -53,18 +53,6 @@ body {
   
   }
 
- /*ul {
-  
-
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-right: 0;
-  padding-top: 13%;
-  margin: 0;
-  width: 100%;
-  position: absolute;
-  border: solid 4px rgb(255, 192, 247);
- }*/
 
  nav {  
   float: right;
