@@ -1,45 +1,23 @@
 
-main {
-  font-family: sans-serif;
-}
-
-/*h1 {
-  border: solid 4px rgb(47, 57, 255);
-  display: flex;
-  padding-left: 66%;
-  order: 1;
-}
-
-
-/*nav {
-  flex-shrink: 0;*/
-  /*border: solid 4px rgb(126, 152, 109);
-}
-*/
-
-/*ul {
-  disp
- display: flex;
-}
-
-a {
-  text-decoration: none;
-}
-.logo_Type {
-  border: solid 4px rgb(51, 204, 212);
-  /*size: 5%;*/
 /*
-.offlogo {
-    border: solid 4px rgb(210, 233, 235);
-    list-style-type: none;
-    padding: 0;
-    margin-top: 100px;
-    background-repeat: no-repeat;
-    float: center;
-
-
+section {
+ display: block;
+ flex-direction: column;
+ float: center;
+  border: solid 4px purple;
+  margin-top: 20%;
 
 }*/
+
+body {
+  font-family: sans-serif;
+  width: 100vw;
+ 
+}
+
+
+
+
 
 /*.hero_Image {
     background-image: url(/images/Sri_Yantra\ SVG.svg);
@@ -56,170 +34,69 @@ a {
 
 }*/
 
-/*@media only screen and (max-width: 320px) {
-  .logo {
-    border: solid 4px rgb(44, 248, 78);
-    height: 100px;
-    width: 100px;
-    
 
-  }
 
-  nav {
+  /*nav {
     border: solid 4px gold;
   }
 }*/
 
-@media only screen and (min-width: 150px) {
+
+@media only screen and (max-width: 480px) and (min-width: 100px) {
   .logo {
-    flex-direction: column;
-    display: flexbox;
-    align-self: center;
+    display: block;
+    float: left;
     width: 15%;
-    /*margin: 0 0 0 -5px;*/
     background-repeat: no-repeat;
-    border: solid 4px #e92311;
-    /*justify-content: center;*/
-  }
-
-  nav {
-    display: none;
-  }
-  .hamb-menu {
-    width: 40px;
-    height: 5px;
-    background-color: rgb(5, 14, 1);
-    margin: 3px;
-    display: flex;
-    flex-direction: column;
-    
-  }
-  #hamb-group {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    margin-left: 78%;
-    width: 17%;
-    border: solid 4px olive;
-    
-   
-  }
-  h1, h2 {
-    border: solid 4px purple;
-    display: flex;
-    margin-left: 0%;
-    padding: 0;
-    width: 100%;    
     justify-content: center;
-    
-  }
-  /*h2 {
-    border: solid 4px rgb(0, 42, 255);
-    display: flex;
-    margin-left: 0%;
-    padding-left: 0%;
-    width: 100%;
-  }*/
-}
-
-@media only screen and (min-width: 538px) {
-  .logo {
-    border: solid 4px rgb(66, 233, 227);
-    width: 14%;
-    padding: 0;
-    margin: 0;
+    border: solid 4px #e92311;
   
   }
-  /*h1,
-  h2 {
-    display: flex;
-    flex-direction: wrap;
-    border: solid 4px rgb(47, 186, 75);
-    font-family: sans-serif;
-    
-    
-  }*/
-  h1 {
-    border: solid 4px purple;
-    display: flex;
-    flex-direction: wrap;
-    margin-left: 40%;
-    padding-left: 20%;
-    width: 60%;
+
+ /*ul {
   
 
-  }
-  h2 {
-  
-    border: solid 4px rgb(0, 42, 255);
-    display: flex;
-    flex-direction: wrap;
-    margin-left: 40%;
-    padding-left: 20%;
-    width: 60%;
-  }
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-right: 0;
+  padding-top: 13%;
+  margin: 0;
+  width: 100%;
+  position: absolute;
+  border: solid 4px rgb(255, 192, 247);
+ }*/
+
+ nav {  
+  float: right;
+ }
+
+
+ #nav-nav li{
+ float: right;
+  list-style: none;
+  padding: 0 15px 0 15px;
+  border: solid 4px gold;
+ }
+
 
  
+section {
+ display: block;
+ flex-direction: column;
+ float: center;
+  border: solid 4px purple;
+  margin-top: 20%;
 
-  body {
-    grid-gap: 0%;
-  }
-  .hamb-menu, #hamb-group {
-    display: none;
-  }
+}
 
-  /*h1, h2{
-    display: flex;
-    margin-left: 30%;
-    border: solid 4px rgb(4, 255, 0);
-    width: 70%;
-    order: 2;
-    
-    
-  }*/
-  nav {
-    display: flex;
-    border: solid 4px rgb(238, 0, 255);
-    width: 70%;
-    margin-left: 30%;
-    padding-top: 0px;
-    order: 1;
-    background-color: aqua;
-    
-    
-  }
+.nav-logo {
+  border: solid 4px cyan;
+ padding: 0;
 
-  @media only screen and (max-width: 539px) {
-    .logo {
-      border: solid 4px rgb(119, 139, 177);
-      
-    }
+}
 
-   
-  }
+@media only screen and (max-width: 768px) and (min-width: 481px) {
 
-  li {
-    display: flex;
-    border: solid 4px red;
-    flex-direction: row;
-    padding: 2%;
-  }
-  .nav_nav  {
-    border: solid 4px #f0990e;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    word-spacing: 3px;
-    flex-basis: 100%;
-    justify-content: space-around;
-    list-style-type: none;
-  }
+}
 
-  /*.nav_nav ul li{
-    display: flex;
-    flex-basis: 20%;
-    
-  }*/
-
-  
 }
