@@ -1,4 +1,32 @@
+#nav_men ul {
+  list-style-type: none;
+position: relative;
+  border: solid 2px;
+}
 
+#nav_men ul li {
+  float: left;
+}
+
+#nav_men ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+#nav_men ul ul li {
+float: none;
+}
+
+#nav_men ul li:hover > ul {
+display: block;
+}
+
+#nav_men > ul::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 /*
 section {
  display: block;
@@ -86,5 +114,9 @@ section {
 @media only screen and (max-width: 768px) and (min-width: 481px) {
 
 }
+
+/*#nav_men {
+  display: none;
+}*/
 
 }
