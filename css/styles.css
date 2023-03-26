@@ -12,6 +12,21 @@ body {
   font-family: sans-serif;
   margin: 0;
   width: 100vw;
+  max-width: 1250px;
+}
+
+img {
+  max-width: 10vw;
+  min-width: 10vw;
+  padding-right: 20%;
+}
+
+section{
+  display: block;
+  flex-direction: column;
+  float: center;
+   border: solid 4px purple;
+   margin-top: 20%;
 }
 
 header #nav_men  {
@@ -30,7 +45,7 @@ header #nav_men  {
 #nav_men ul {
   list-style-type: none;
   position: relative;
-  border: solid 2px;
+  border: solid 2px orange;
 }
 
 #nav_men ul li {
@@ -87,6 +102,7 @@ header #nav_men  {
     border: solid 4px #e92311;
     padding: 0;
     margin: 0;
+ 
   }
 
   nav {
@@ -94,7 +110,7 @@ header #nav_men  {
     padding-left: 10%;
   }
 
-  #nav-nav li {
+ /* #nav-nav li {
     float: right;
     list-style: none;
     padding: 0 15px 0 15px;
@@ -112,7 +128,7 @@ header #nav_men  {
   .nav-logo {
     border: solid 4px rgb(234, 0, 255);
     padding: 0;
-  }
+  }*/
 }
 
 /*min:516px max:768px*/
@@ -121,8 +137,28 @@ header #nav_men  {
     float: left;
     width: 15%;
     background-repeat: no-repeat;
-    border: solid 4px #e92311;
+    border: solid 4px #11e99d;
     padding: 0;
     margin: 0;
+  }
+  nav {
+    float: right;
+    padding-left: 10%;
+  }
+}
+
+/*min:769px max:1300px*/
+@media only screen and (min-width: 769px) and (max-width: 1300px) {
+  .logo {
+    float: left;
+    width: 15%;
+    background-repeat: no-repeat;
+    border: solid 4px #e9ba11;
+    padding: 0;
+    margin: 0;
+  }
+  nav {
+    float: right;
+    padding-left: 10%;
   }
 }
