@@ -15,10 +15,10 @@ body {
   max-width: 1200px;
 }
 
-img {
-  max-width: 10%;
-  min-width: 10%;
-  padding-right: 20%;
+#nav-men .logo {
+  max-width: 3%;
+  min-width: 1%;
+
 }
 
 section{
@@ -49,7 +49,7 @@ header #nav_men  {
 #nav_men ul {
   list-style-type: none;
   position: relative;
-  border: solid 2px orange;
+  border: solid 2px rgb(255, 0, 81);
 }
 
 #nav_men ul li {
