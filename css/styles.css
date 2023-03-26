@@ -12,12 +12,12 @@ body {
   font-family: sans-serif;
   margin: 0;
   width: 100vw;
-  max-width: 1250px;
+  max-width: 1200px;
 }
 
 img {
-  max-width: 10vw;
-  min-width: 10vw;
+  max-width: 10%;
+  min-width: 10%;
   padding-right: 20%;
 }
 
@@ -26,14 +26,18 @@ section{
   flex-direction: column;
   float: center;
    border: solid 4px purple;
-   margin-top: 20%;
+   padding-top: 13vh;
+   width: 90vw;
 }
+
+
 
 header #nav_men  {
   position: fixed;
   border: solid 5px lime;
   justify-content: space-between;
   height: 15vh;
+  
 }
 
 #nav_men {
